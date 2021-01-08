@@ -1,0 +1,1 @@
+var ledogescript = require('dogescript'); var lefs = require('fs'); var doge_file = lefs.readFileSync('./criptz.djs').toString('utf-8'); const the_doge = eval(ledogescript(doge_file));
